@@ -2,7 +2,9 @@ package com.thalesbensi.email_service.application;
 
 import com.thalesbensi.email_service.adapters.EmailSenderAdapter;
 import com.thalesbensi.email_service.core.usecases.EmailSenderUseCase;
+import org.springframework.stereotype.Service;
 
+@Service
 public class EmailSenderService implements EmailSenderUseCase {
 
     private final EmailSenderAdapter emailSenderAdapter;
