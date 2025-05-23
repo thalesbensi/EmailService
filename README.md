@@ -34,13 +34,14 @@ Antes de executar o projeto, certifique-se de ter instalado:
 - [AWS CLI](https://aws.amazon.com/cli/) (opcional, para configuração)
 
 ## 🔧 Configuração
-Configuração do AWS SES
+### Configuração do AWS SES
 
 ### via variáveis de ambiente no application.properties
-AWS_ACCESS_KEY_ID=sua-access-key
-AWS_SECRET_ACCESS_KEY=sua-secret-key
-AWS_DEFAULT_REGION=us-sua-regiao-aws
-
+```bash
+ACESS_KEY_ID=sua-access-key
+SECRET_KEY=sua-secret-key
+AWS_REGION=us-sua-regiao-aws
+```
 ## 📡 API Endpoints
 ### POST /api/email
 Envia um email através do Amazon SES.
